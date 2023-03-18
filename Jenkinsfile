@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git checkout'){
             steps{
-                git credentialsId: 'a1763fab-b819-4fce-a712-44e04b9609d1', url: 'https://github.com/revanthsai-bandi/terraform-with-gcp.git'
+                git credentialsId: '0066e554-f818-4114-913d-cb99c5acfe72', url: 'https://github.com/sorayaquites/jenkins.git'
             }
         }
         stage('Initialize'){
